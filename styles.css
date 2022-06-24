@@ -1,0 +1,230 @@
+body {
+    /* Typography */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+    /* Visual */
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png");
+    
+}
+  
+  html {
+    /* Positioning */
+    position: relative;
+  
+    /* Box-model */
+    min-height: 100%;
+  }
+  
+  /* add space for fixed nav */
+  main {
+    margin: 80px 0;
+  }
+  
+  /* create styles for use for all white main boxes */
+  .block {
+    background-color: #bdbdbd;
+    margin-top: -90px;
+    margin-left: -20px;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .block-header {
+    /* Typography */
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+  }
+  #logo {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  
+    /* Visual */
+    background: #4aaaa5;
+  }
+  
+  /* override bootstrap hover color and border */
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #4aaaa5;
+  }
+  
+  .navbar {
+    background: #bdbdbd;
+    border: none;
+  }
+  .container{
+    background-color: #bdbdbd;
+    max-width: 960px;
+    max-height: max-content;
+    margin:auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+  
+  /* media query for nav background color change */
+  @media only screen and (max-width: 767px) {
+    .navbar-header {
+      background-color: #4aaaa5;
+    }
+  }
+  /* CONNECT W/ ME CSS */
+.connect-header {
+    /* Typography */
+    font-size: 25px;
+  }
+  
+  .connect-photo {
+    /* Box-model */
+    width: 55px;
+    height: 55px;
+  }
+  
+  #images {
+    /* Box-model */
+    padding-top: 15px;
+  
+    /* Typography */
+    text-align: center;
+  }
+  /* END CONNECT W/ ME */
+  
+  
+  /* BEGIN FOOTER */
+  .footer {
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+  
+    /* Box-model */
+    width: 100%;
+    height: 60px;
+  
+    /* Visual */
+    background-color: #666;
+  }
+  
+  .text-muted-footer {
+    /* Box-model */
+    margin-top: 15px;
+  
+    /* Typography */
+    color: #fff;
+  }
+  
+  .two-toned-footer-color {
+    /* Box-model */
+    height: 6px;
+    padding-top: 3px;
+  
+    /* Visual */
+    background-color: #4aaaa5;
+  }
+  /* contact stuff */
+  .textbox-one {
+    margin-top: -10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 1px;
+    border: 1px solid #777777;
+    color: #777777;
+    width: auto;
+    height: 25px;
+}
+.textbox-two {
+    margin-top: -10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 1px;
+    border: 1px solid #777777;
+    color: #777777;
+    width: auto;
+    height: 25px;
+}
+.textbox-three{
+    margin-top: -10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 1px;
+    border: 1px solid #777777;
+    color: #777777;
+    width: auto;
+    height: 100px;
+}
+button {
+    color: white;
+    border-color: #4aaaa5;
+    background-color: #4aaaa5;
+    padding: 0px 24px;
+}
+/* portfolio stuff */
+.one {
+    color: white;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 257px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 105px;
+  
+  }
+.two {
+    color: white;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 257px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 105px;
+    left: 276px;
+  
+  }
+.three {
+    color: white;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 257px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -190px;
+  }
+.four {
+    color: white;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 257px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -190px;
+    left: 476px;
+  }
+.five {
+    color: white;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 257px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -100px;
+  }
+.six {
+    color: white;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 257px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -100px;
+    left: 476px;
+  }
