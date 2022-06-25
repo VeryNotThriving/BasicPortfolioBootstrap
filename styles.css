@@ -3,7 +3,7 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   
     /* Visual */
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png");
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/restaurant.png");
     
 }
   
@@ -17,23 +17,19 @@ body {
   
   /* add space for fixed nav */
   main {
-    margin: 80px 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
   }
   
   /* create styles for use for all white main boxes */
-  .block {
-    background-color: #bdbdbd;
-    margin-top: -90px;
-    margin-left: -20px;
-    padding: 30px;
-    margin-bottom: 30px;
-  }
   
-  .block-header {
+  
+  .header {
     /* Typography */
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
+
   }
   #logo {
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -42,6 +38,9 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
+    border-radius: 1px;
+    padding: 10px;
+    margin-left: -20px;
   
     /* Visual */
     background: #4aaaa5;
@@ -50,14 +49,15 @@ body {
   /* override bootstrap hover color and border */
   .navbar-default .navbar-nav > li > a:hover {
     color: #4aaaa5;
+   
   }
   
   .navbar {
     background: #bdbdbd;
     border: none;
   }
-  .container{
-    background-color: #bdbdbd;
+.container{
+    background-color: white;
     max-width: 960px;
     max-height: max-content;
     margin:auto;
@@ -65,7 +65,27 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.container2{
+    background-color: #bdbdbd;
+    max-width: 960px;
+    max-height: max-content;
+    margin:auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container3{
+    background-color: #bdbdbd;
+    max-width: 960px;
+    max-height: max-content;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
   
   /* media query for nav background color change */
   @media only screen and (max-width: 767px) {
@@ -167,64 +187,64 @@ button {
     color: white;
     background-color: #4aaaa5;
     height: 40px;
-    width: 257px;
+    width: 267px;
     text-align: center;
     padding-top: 10px;
     position: absolute;
-    bottom: 105px;
+    bottom: 5px;
   
   }
 .two {
     color: white;
     background-color: #4aaaa5;
     height: 40px;
-    width: 257px;
+    width: 267px;
     text-align: center;
     padding-top: 10px;
     position: absolute;
-    bottom: 105px;
-    left: 276px;
+    bottom: 5px;
+    left: 15px;
   
   }
 .three {
     color: white;
     background-color: #4aaaa5;
     height: 40px;
-    width: 257px;
+    width: 267px;
     text-align: center;
     padding-top: 10px;
     position: absolute;
-    bottom: -190px;
+    bottom: 5px;
   }
 .four {
     color: white;
     background-color: #4aaaa5;
     height: 40px;
-    width: 257px;
+    width: 267px;
     text-align: center;
     padding-top: 10px;
     position: absolute;
-    bottom: -190px;
-    left: 476px;
+    bottom: 5px;
+    left: 15px;
   }
 .five {
     color: white;
     background-color: #4aaaa5;
     height: 40px;
-    width: 257px;
+    width: 267px;
     text-align: center;
     padding-top: 10px;
     position: absolute;
-    bottom: -100px;
+    bottom: 5px;
   }
 .six {
     color: white;
     background-color: #4aaaa5;
     height: 40px;
-    width: 257px;
+    width: 267px;
     text-align: center;
     padding-top: 10px;
     position: absolute;
-    bottom: -100px;
-    left: 476px;
+    bottom: 5px;
+    left: 15px;
   }
